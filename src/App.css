@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #BFBFBF;
+  color: #333a4a;
+}
+
+.taskBg {
+  background-color: #223843;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 120px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+
+.taskBg .taskText {
+  flex: 1;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.iconsWrap {
+  position: absolute;
+  top: 27px;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  flex: 1;
+}
+
+.taskBg .iconsWrap span {
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+  color: #00ff89;
+}
+
+.taskBg .iconsWrap span:hover {
+  color: red;
+}
+
+.content {
+  background-color: #eae5e1;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: 3px 6px 40px #333a4a;
+}
+
+.header {
+  background-color: orange;
+  padding: 5px;
+}
+
+.content-app {
+  padding: 25px;
+}
+
+.author {
+  font-family: 'Courier New', Courier, monospace;
+  float: right;
+  font-weight: bold;
+}
+
+.mr-20 {
+  margin-right:  20px;
+}
